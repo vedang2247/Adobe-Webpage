@@ -9,16 +9,16 @@ header {
     text-align: center;
     padding: 80px;
     background-color: #f5f5f5;
-    border-bottom: 5px solid #ff4d4d; 
+    border-bottom: 5px solid #ff4d4d;
 }
 
 .logo {
-    max-width: 150px; 
+    max-width: 150px;
     margin-bottom: 20px;
 }
 
 h1 {
-    color: #ff4d4d; /* Red */
+    color: #ff4d4d;
 }
 
 h2 {
@@ -27,8 +27,8 @@ h2 {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff4d4d; /* Red */
+    padding: 12px 25px;
+    background-color: #ff4d4d;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -36,15 +36,22 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: #e04343; /* Darker red on hover */
+    background-color: #e04343;
 }
 
 section {
     padding: 50px;
 }
+
 .more-link {
     text-align: right;
+    color: #ff4d4d;
 }
+
+.more-link:hover {
+    color: #e04343;
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -53,44 +60,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 ul {
-    list-style-type: none; /* Remove default bullet points */
+    list-style-type: none;
     padding: 0;
     background-color: #f5f5f5;
-
 }
 
 .feature-link {
     display: inline-block;
     margin: 10px 0;
     text-decoration: none;
-    color: #ff4d4d; /* Red */
+    color: #ff4d4d;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .feature-link:hover {
-    color: #e04343; /* Darker red on hover */
+    color: #e04343;
 }
 
-.more-link {
-    color: #ff4d4d;
-}
-.more-link:hover{
-    color:#e04343
-}
-/* Navigation Styles */
 nav {
-    background-color: #ff4d4d; 
+    background-color: #ff4d4d;
     padding: 15px 0;
-    text-align: center; 
+    text-align: center;
 }
 
 .nav-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #ff4d4d
+    background-color: #ff4d4d;
 }
 
 .nav-links li {
@@ -101,205 +101,197 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #ffffff ; 
+    color: #ffffff;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #e04343; 
+    color: #e04343;
 }
 
 .hero {
     text-align: center;
-    padding: 100px 20px; /* Top/bottom padding for spacious feel */
-    background-color: #f5f5f5; /* Light background color */
-    border-bottom: 5px solid #ff4d4d; /* Hint of red */
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid #ff4d4d;
 }
 
 .hero h2 {
-    color: #ff4d4d; /* Red */
-    font-size: 2.5em; /* Adjust size as needed */
+    color: #ff4d4d;
+    font-size: 2.5em;
 }
 
 .hero p {
-    color: #333; /* Dark text */
-    font-size: 1.2em; /* Adjust size as needed */
-    margin: 20px 0; /* Space around the paragraph */
+    color: #333;
+    font-size: 1.2em;
+    margin: 20px 0;
 }
+
 .hero-image {
     max-width: 90%;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 12px 25px; /* Adjust padding */
-    background-color: #ff4d4d; /* Red */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #e04343; /* Darker red on hover */
-}
 .generative-ai {
     text-align: center;
-    padding: 80px 20px; /* Top/bottom padding for spacious feel */
-    background-color: #ffffff; /* White background */
+    padding: 80px 20px;
+    background-color: #ffffff;
 }
 
 .generative-ai h2 {
-    color: #ff4d4d; /* Red */
-    font-size: 2em; /* Adjust size as needed */
+    color: #ff4d4d;
+    font-size: 2em;
 }
 
 .generative-ai p {
-    color: #333; /* Dark text */
-    font-size: 1.1em; /* Adjust size as needed */
-    margin: 20px 0; /* Space around the paragraph */
+    color: #333;
+    font-size: 1.1em;
+    margin: 20px 0;
 }
 
 .generative-ai-image {
-    max-width: 80%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0; /* Space around the image */
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
 }
+
 .discount {
     text-align: center;
-    padding: 80px 20px; /* Top/bottom padding for spacious feel */
-    background-color: #f9f9f9; /* Light grey background */
+    padding: 80px 20px;
+    background-color: #f9f9f9;
 }
 
 .discount h2 {
-    color: #ff4d4d; /* Red */
-    font-size: 2em; /* Adjust size as needed */
+    color: #ff4d4d;
+    font-size: 2em;
 }
 
 .discount p {
-    color: #333; /* Dark text */
-    font-size: 1.1em; /* Adjust size as needed */
-    margin: 20px 0; /* Space around the paragraph */
+    color: #333;
+    font-size: 1.1em;
+    margin: 20px 0;
 }
+
 .section {
-    opacity: 0; /* Start as invisible */
-    transform: translateX(-100px); /* Start from left */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition effect */
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .section.visible {
-    opacity: 1; /* Fade in */
-    transform: translateX(0); /* Move to the center */
+    opacity: 1;
+    transform: translateX(0);
 }
+
 .genstudio {
     text-align: center;
-    padding: 80px 20px; /* Spacious top/bottom padding */
-    background-color: #ffffff; /* White background */
+    padding: 80px 20px;
+    background-color: #ffffff;
 }
 
 .genstudio h2 {
-    color: #ff4d4d; /* Red title */
+    color: #ff4d4d;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 .genstudio p {
-    color: #333; /* Dark text */
+    color: #333;
     font-size: 1.2em;
-    margin: 20px 0; /* Space around the paragraph */
+    margin: 20px 0;
 }
 
 .genstudio-content {
     display: flex;
-    justify-content: space-around; /* Even space between columns */
+    justify-content: space-around;
     margin-top: 40px;
 }
 
 .genstudio-column {
-    flex: 1; /* Columns take equal width */
-    margin: 0 20px; /* Space between columns */
+    flex: 1;
+    margin: 0 20px;
     padding: 20px;
-    background-color: #f5f5f5; /* Light grey background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .genstudio-column img {
-    max-width: 80%; /* Set image size */
+    max-width: 80%;
     margin-bottom: 20px;
 }
 
 .genstudio-column h3 {
-    color: #ff4d4d; /* Red headings */
+    color: #ff4d4d;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .genstudio-column p {
-    color: #666; /* Dark grey text */
+    color: #666;
     font-size: 1em;
     margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
     .genstudio-content {
-        flex-direction: column; /* Stack columns vertically on smaller screens */
+        flex-direction: column;
     }
 }
+
 .frame-io {
     text-align: center;
-    padding: 80px 20px; /* Spacious padding */
-    background-color: #f9f9f9; /* Light grey background */
+    padding: 80px 20px;
+    background-color: #f9f9f9;
 }
 
 .frame-io h2 {
-    color: #ff4d4d; /* Red title color */
+    color: #ff4d4d;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 .frame-io p {
-    color: #333; /* Dark text */
+    color: #333;
     font-size: 1.2em;
-    margin: 20px 0; /* Spacing around paragraph */
+    margin: 20px 0;
 }
 
 .frame-io-content {
     display: flex;
-    justify-content: space-around; /* Evenly space columns */
+    justify-content: space-around;
     margin-top: 40px;
 }
 
 .frame-io-column {
-    flex: 1; /* Each column takes equal width */
-    margin: 0 20px; /* Space between columns */
+    flex: 1;
+    margin: 0 20px;
     padding: 20px;
-    background-color: #fff; /* White background for columns */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: center; /* Center content in columns */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .frame-io-column img {
-    max-width: 80%  ; /* Set image size */
-    margin-bottom: 20px; /* Space below the image */
+    max-width: 80%;
+    margin-bottom: 20px;
 }
 
 .frame-io-column h3 {
-    color: #ff4d4d; /* Red headings */
+    color: #ff4d4d;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .frame-io-column p {
-    color: #666; /* Dark grey text */
+    color: #666;
     font-size: 1em;
     margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
     .frame-io-content {
-        flex-direction: column; /* Stack columns vertically on smaller screens */
+        flex-direction: column;
     }
 }
