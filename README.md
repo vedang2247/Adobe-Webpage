@@ -1,0 +1,1 @@
+This repository contains a simple yet elegant landing page design inspired by Adobe's branding, created using basic HTML and CSS. The project showcases fundamental web development principles, making it an ideal resource for beginners looking to enhance their skills.
