@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Adobe Landing Page</title>
 </head>
 <body>
@@ -52,7 +52,7 @@
                     <p>Leverage the power of artificial intelligence to create highly targeted, effective campaigns with ease.</p>
                 </div>
                 <div class="genstudio-column">
-                    <img src="https://business.adobe.com/ca_fr/products/media_14c8ded1633df77e9451b4806c49ea71ee584a688.png?width=750&format=png&optimize=medium" height="auto" width="auto" alt="Analytics Icon" class="genstudio-image">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240705124654/Real-time-analllytics.webp" height="auto" width="auto" alt="Analytics Icon" class="genstudio-image">
                     <h3>Real-Time Analytics</h3>
                     <p>Get real-time insights into your campaign's performance and adjust your strategies on the go.</p>
                 </div>
@@ -109,13 +109,13 @@
                     entries.forEach(entry => {
                         if (entry.isIntersecting) {
                             entry.target.classList.add('visible');
-                            observer.unobserve(entry.target); // Stop observing after it becomes visible
+                            observer.unobserve(entry.target); 
                         }
                     });
                 }, { threshold: 0.2 });
         
                 sections.forEach(section => {
-                    observer.observe(section); // Start observing each section
+                    observer.observe(section); 
                 });
             });
         </script>
